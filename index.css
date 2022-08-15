@@ -1,0 +1,163 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;    
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #0d0d0d;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 5rem;
+  }
+  
+  body {
+    background: #0d0d0d !important;
+    padding-bottom: 6.5rem;
+  }
+  
+  section {
+    padding: 5rem 9%;
+  }
+
+
+
+  .heading {
+    text-align: center;
+    font-size: 6vw;
+    color: #fff;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+  }
+  
+  .heading span {
+    text-transform: uppercase;
+    color: crimson;
+  }
+  
+  .btn {
+    display: inline-block !important;
+    margin-top: 1rem !important;
+    border-radius: 5rem !important;
+    background: crimson !important;
+    padding: .7rem !important;
+    font-size: 1.7rem !important;
+    color: #fff !important;
+    padding-left: 2rem !important;
+  }
+  
+  .btn i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    text-align: center;
+    background: #fff;
+    color: crimson;
+    border-radius: 50%;
+    margin-left: 1rem;
+    transition: .2s linear;
+  }
+  
+  .btn:hover i {
+    margin-left: 2rem;
+  }
+
+  
+
+/* navbar */
+  .navbar {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    display: flex;
+    z-index: 1000;
+    align-items: flex-end;
+  }
+  
+  .navbar a {
+    padding: 2rem;
+    font-size: 2rem;
+    background: #1a1a1a;
+    flex: 1;
+    color: #fff !important;
+    text-align: center;
+    transition: .2s linear !important;
+    text-decoration: none;
+  }
+  
+  .navbar a i {
+    color: crimson;
+    padding-right: .5rem;
+  }
+  
+  .navbar a:hover {
+    background: crimson;
+    padding-bottom: 6rem;
+  }
+  
+  .navbar a:hover i {
+    color: #fff ;
+  }
+
+  /* home */
+  .home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    min-height: calc(100vh - 6.5rem);
+  }
+  
+  .home .image {
+    flex: 1 1 42rem;
+    text-align: center;
+  }
+  
+  .home .image img {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  
+  .home .content {
+    flex: 1 1 42rem;
+  }
+  
+  .home .content h3 {
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: .5rem;
+  }
+  
+  .home .content span {
+    font-size: 3rem;
+    color: crimson;
+    padding: .5rem 0;
+    display: block;
+  }
+  
+  .home .content p {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
